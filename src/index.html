@@ -1,0 +1,79 @@
+
+
+<!DOCTYPE html>
+
+<html lang="sv">
+
+<head>
+
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Moment 5 </title>
+  <link rel="stylesheet" href="css/main.css">  
+</head>
+<body>
+<header> <h1>Moment 5</h1> 
+ 
+</header>
+
+    <section class="container">
+
+
+<h2>Kurser jag har läst:</h2>
+<table id="table">
+  <theader>
+  <tr>
+    <th style="width:20%; text-align: left">Kursens kod</th>
+    <th style="width:40%; text-align: left">Kurserns namn</th>
+    <th style="width:10%; text-align: left">Progression</th>
+    <th style="width:10%; text-align: left">Kursplan</th>
+    <th style="width:20%; text-align: left">Radera kurs</th>
+  </tr>
+</theader>
+  <tbody id="courseTable">
+  <tr>
+    <td></td>
+    
+  </tr>
+</tbody>
+</table>
+
+
+<h3>Add courses</h3>
+        <form>
+            <label for="code">Course code:</label><br>
+            <input type="text" id="code" name="code" required><br>
+            <label for="name">Course name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="progression">Progression:</label><br>
+            <input type="text" id="progression" name="progression" required><br>
+            <label for="syllabus">Syllabus:</label><br>
+            <input type="text" id="syllabus" name="syllabus"  required><br><br>
+            <input type="submit" value="Add course" id="submit">
+          </form>
+          
+          <span id="courseInfo"></span>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+
+<p>Aleksandra Kuzeleva. 2023</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

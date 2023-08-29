@@ -1,0 +1,30 @@
+#test{
+    display: none;
+}
+
+
+#imageDiv{
+    /*div which contains the image*/
+    display: none;
+}
+
+
+.btn {
+    /*background*/
+    background-color:$btn-color;
+    color: white;
+    padding: 0.8vh;
+    border: 2px solid $btn-border;
+    border-radius: 3px;
+    font-size: 16px;
+    //extend inheritance
+    &-2 {
+        @extend .btn;
+        background-color: rgb(2, 65, 26);
+      }
+}
+
+button:hover{
+    background-color: $btn-hover;
+}
+
